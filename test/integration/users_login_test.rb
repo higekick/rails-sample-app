@@ -54,6 +54,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
 
  test "login with remembering" do
    log_in_as(@user, remember_me: '1')
+   # 9.28 remember_token属性を検証するためにSessionController#createで定義した@userにアクセスするためassignsメソッドを使う
    # assert_not_empty cookies[:remember_token]
    assert_equal cookies[:remember_token], assigns(:user).remember_token
  end
