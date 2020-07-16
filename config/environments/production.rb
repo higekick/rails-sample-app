@@ -113,7 +113,7 @@ Rails.application.configure do
   # 11.41 mail settings
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = 'rails-sample-app-ike2.herokuapp.com'
+  host = 'rails-sample-app-ike3.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
