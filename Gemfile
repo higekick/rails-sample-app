@@ -11,7 +11,7 @@ gem 'bcrypt',         '3.1.12'
 gem 'faker', '2.1.2'
 gem 'will_paginate',           '3.1.8'
 gem 'bootstrap-will_paginate', '1.0.0'
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 # Use postgresql as the database for Active Record
 gem 'pg',    '1.1.4'
 # Use Puma as the app server
