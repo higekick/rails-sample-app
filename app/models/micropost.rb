@@ -1,6 +1,6 @@
 class Micropost < ApplicationRecord
   belongs_to :user
-  has_one_attached :image
+  has_one_attached :image # Active Storage のメソッド ファイルを関連付ける
   # default_scopeメソッドで順番を指定
   default_scope -> { order(created_at: :desc) }
   validates :user_id, presence: true
